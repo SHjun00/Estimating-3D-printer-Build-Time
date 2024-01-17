@@ -3,7 +3,7 @@ import subprocess
 import re
 
 # PrusaSlicer가 설치된 경로
-prusa_slicer_path = "C:\\Program Files\\Prusa3D\\PrusaSlicer\\prusa-slicer-console.exe"
+prusa_slicer_path = r"C:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe"
 
 # 설정 파일의 경로
 config_path = r"C:\Users\user\Desktop\LAB\3D_printing\config.ini"
@@ -14,7 +14,7 @@ stl_folder_path = r"C:\Users\user\Desktop\LAB\3D_printing\rotate"
 # G-code 파일을 저장할 폴더
 gcode_folder_path = r"C:\Users\user\Desktop\LAB\3D_printing\rotate_g-code"
 
-# STL 파일이 저장된 폴더를 탐색
+# STL 파일이 저장된 폴더
 for filename in os.listdir(stl_folder_path):
     # STL 파일만 처리
     if filename.endswith(".stl"):
