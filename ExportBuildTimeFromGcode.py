@@ -12,7 +12,7 @@ def get_estimated_printing_time(filename):
             line = line.strip()
             match = pattern.search(line)
             if match:  # 패턴과 일치하는 줄 찾기
-                estimated_time = match.group(1).strip()  # 시간 값 추출
+                estimated_time = match.group(1).strip()  # 시간 값
                 break
 
     return estimated_time
