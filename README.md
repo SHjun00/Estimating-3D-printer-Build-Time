@@ -7,6 +7,7 @@ When 3D printing, the build time of a model can vary depending on its build orie
 First, the amount of data will be increased through data augmentation. Subsequently, a prediction model will be created using the augmented data.
 
 
+## Data Augmentation
 
 
 
